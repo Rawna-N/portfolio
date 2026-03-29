@@ -1,0 +1,172 @@
+*{ margin:0;
+    padding:0;
+    }
+
+/*Header style*/
+header{
+    color: white;
+    background-color: #2a3652;
+   text-align: center;
+    padding: 30px 5px;
+   border-bottom: 5px solid #f8b2d5;
+   font-family:Georgia, 'Times New Roman', Times, serif
+}
+   
+header p{
+    margin-top: 20px;
+}
+
+/*Navbar styling*/
+
+.navbar{
+    background-color: #2a3652;   
+}
+
+.nav-link{
+    color:white;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color:#001a2e;
+    background-color: #f8b2d5;
+}
+
+body{
+    background-color: #001a2e;
+    color: #e0e0e0;
+}
+
+/*Elements boxes style*/
+.box{
+    background:#2a3652;
+    border-radius: 10px ;
+    padding:10px 30px;
+    margin:25px 20px; 
+    display: flex;
+   flex-direction: column;
+
+}
+
+.box h3{
+border-left: 5px solid #f8b2d5;
+padding: 10px;
+margin-bottom: 10px;
+font-size: 30px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box li{
+    margin: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.box p{
+padding-bottom:5px;
+}
+
+.box h5{
+    margin-bottom:8px ;
+    font-size: 15px;
+}
+
+/*Skills bar style*/
+.bar{
+    display: block;
+    background: #001a2e;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.bar span{
+    height: 20px;
+    float:left;
+    background: #f8b2d5;
+    border-radius: 10px;
+}
+
+.html{ width:70%; }
+.css{ width:60%; }
+.cpp{ width:50%; }
+.python{ width:60%; }
+.java{ width:50%; }
+.management{ width: 90%; }
+
+/*Project content style*/
+
+.project h5{
+    border-left: 2px solid #f8b2d5;
+    margin:20px 0 5px 20px;
+    padding:10px;
+    font-size: 20px;
+}
+
+.project p{
+    padding:5px;
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+.project a{
+    background: #f8b2d5;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 40px;
+    box-shadow: 3px 3px black;
+    color:#001a2e;
+    text-decoration: none;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/*Contact form style*/
+
+form{
+    margin: 30px;
+}
+form label{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+input , textarea{
+     width:100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px; 
+}
+#button{
+    background: #f8b2d5;
+    color:#001a2e;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 2px 2px black;
+    width:100%;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+#button:hover{
+    background: #ad7e96;
+}
+
+/*Responsive - the page is already responsive
+ because of using d-flex*/
+
+@media (max-width:576px){
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar a{
+        font-size: 15px;
+    }
+    .project a {
+        display: block;
+        margin: 15px auto;
+        width: fit-content;
+    }     
+}
+
+

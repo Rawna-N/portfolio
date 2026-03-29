@@ -1,0 +1,212 @@
+<!--Rawnaa Aljohani 2510449-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <!--bootstrap file-->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!--bootsrtap icons file-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--style file-->
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Rawnaa Nasser Aljohani</h1>
+        <p>Software Engineering Student</p>
+    
+    </header>
+                            <!--Navbar using Bootstrap-->
+    <nav class="navbar">
+        <div class="container d-flex align-items-center justify-content-center">
+         <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link " href="#Objectives">Objectives</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#Education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#Skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#Contact">Contact</a>
+        </li>
+      </ul>
+
+         </div>
+    </nav>
+
+                                <!--Objectives box-->
+    <section class="box" id="Objectives">
+
+        <h3><strong>Objectives</strong></h3>
+        
+        <ul>
+            <li>Aiming to build a life filled with growth,creativity,and purpose while making a positive difference. </li>
+            <li>Motivated Student aiming to gain skills and experiances by working on projects. </li>
+            <li>Live,learn constantly, and enjoy the journy.</li>
+        </ul>
+    </section>
+
+                                <!--Eductaion box-->
+    <section class="box" id="Education">
+        <h3><strong>Education</strong></h3>
+        
+        <p><strong>University of Jeddah</strong></p>
+        <p>Bachelor of Software Engineering (expected graduation:2029)</p>
+        <p><strong>Courses and Certificates:</strong></p>
+        <ul>
+            <li>Artificial Intelligence Fundamentals - by IBM SkillsBuild</li>
+            <li>Project Management Fundamentals - by IBM SkillsBuild</li>
+            <li>BSF Intro to Financial Sustainability - by Udacity</li>
+            <li>Managing Sales Performance - by Doroob</li>
+            <li>Pre-Ai Bootcamp -by Prehack</li>
+        </ul>
+
+    </section>
+
+                                <!--Skills box-->
+    <section class="box" id="Skills">
+        <h3><strong>Skills</strong></h3>
+
+        <div>
+            <h5>HTML</h5>
+            <span class="bar"><span class="html"></span></span>
+        </div>
+
+        <div>
+            <h5>Css</h5>
+            <span class="bar"><span class="css"></span></span>
+        </div>
+
+        <div>
+            <h5>C++</h5>
+            <span class="bar"><span class="cpp"></span></span>
+        </div>
+
+        <div>
+            <h5>Python</h5>
+            <span class="bar"><span class="python"></span></span>
+        </div>
+
+        <div>
+            <h5>Java</h5>
+            <span class="bar"><span class="java"></span></span>
+        </div>
+
+        <div>
+            <h5>Management and Leadership</h5>
+            <span class="bar"><span class="management"></span></span>
+        </div>
+    </section>
+
+                                    <!--Projects box-->
+    <section class="box" id="Projects">
+        <h3><strong>Projects</strong></h3>
+        
+        <div class="project">
+            <h5>Solar Boost App Design</h5>
+    
+            <p>Solar charging stations are designed to convert
+                 sunlight into electricity using photovoltaic panels.
+                    They feature eco-friendly design elements
+                      and are also secure, as the stations are linked to an
+                       app that provides you with the PIN code to open 
+                       and close the charging box. </p>
+            <br>
+            <a href="./media/solar_boost.pdf">View</a>
+        </div>
+    
+        <div class="project">
+            <h5>Internship Management System</h5>
+            
+            <p>centralized platform that connect students, universities, and 
+                companies to make the internship process easier.</p>
+            <br>
+            <a href="./media/SE_report.pdf">View</a>
+        </div>
+
+        <div class="project">
+            <h5>Health Tracker Database</h5>
+            
+            <p>a user-friendly app that helps people keep track of their health, fitness,
+                 and diet.
+                  It allows users to log into daily health information 
+                  and see their progress and their achievements over time.</p>
+             <br>
+            <a href="./media/Database_project_Report_final.pdf">View</a>
+        </div>
+
+        <div class="project">
+            <h5>My Resume Website</h5>
+
+            <p> A website showcasing my resume,objectives, skills, education, and contact information</p>
+            <br>
+            <a href="resumee.html">View</a>
+        </div>
+
+    </section>
+
+                                        <!--Contact box-->
+    <section class="box" id="Contact">
+
+        <h3><strong>Contact Me</strong></h3>
+        <form method="get" action="#">
+
+            <label>Name</label>
+            <input type="text" name="name" minlength="3" pattern="[a-zA-Z\s]+"  required>
+            <br>
+
+            <label>Email</label>
+            <input type="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" 
+             placeholder="you@example.com"  required>
+            <br>
+
+            <label>Message</label>
+            <textarea rows="4" placeholder="write here" required></textarea>
+            <br>
+
+            <input type="submit" value="Send" id="button">
+        </form>
+    
+    </section>
+
+                            <!--Footer using Bootstrap icons and style-->
+    <footer class="text-white pt-4">
+        <div class="container text-center">
+            <div class="row">
+
+                <div class="col-md-6 mb-3">
+                    <h5>Rawnaa Aljohani</h5>
+                    <p>Personal Resume Website</p>
+              </div>
+
+                <div class="col-md-6 mb-3">
+                    <h5>Contact Info</h5>
+                    <div class="d-flex justify-content-center mt-3 mx-">
+                         
+                             <i class="bi bi-envelope-fill" style="color: pink; font-size: 20px;"></i>
+                             <a href="mailto:rawnaa.121@gmail.com" class=" mx-3"></a>
+                    
+                                <i class="bi bi-telephone-fill" style="color: pink; font-size: 20px; "></i>
+                                <a href="tel:+96655555555" class="mx-3"></a>
+
+                                 <i class="bi bi-github" style="color:pink; font-size: 20px;"></i>
+                                 <a href="https://github.com/rawnaa" target="_blank" class="mx-3"></a>
+                         
+                
+                    </div>   
+                </div>            
+         </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
