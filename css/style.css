@@ -87,11 +87,12 @@ padding-bottom:5px;
 }
 
 .html{ width:70%; }
-.css{ width:60%; }
+.css{ width:70%; }
 .cpp{ width:50%; }
 .python{ width:60%; }
-.java{ width:50%; }
-.management{ width: 90%; }
+.java{ width:40%; }
+.javaScript{ width:40%; }
+.management{ width: 80%; }
 
 /*Project content style*/
 
